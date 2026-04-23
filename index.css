@@ -1,0 +1,235 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 51px 200px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+.dark-2{
+    color: #474747;
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 18px 36px;
+    border-radius: 5px;
+    border: none;
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.banner-description{
+    font-size: 18px;
+    font-weight: 400;
+    color:#757575;
+    margin-bottom: 30px;
+
+}
+.banner-profile-pic{
+    width: 580px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    
+}
+.banner-content{
+    width: 585px;
+}
+.header{
+    background-image: url('portfolio-resources/images/developer.png'), url('portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+.about{
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* 
+about-item
+item-title */
+
+.item-description{
+ font-size: 20px;
+ font-weight: bold;
+ color: #474747;
+}
+.about-items{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+.skill-items{
+    display: flex;
+    gap: 24px;
+    
+    
+}
+.skill-item-heading{
+    color: #181818;
+    font-size: 20px;
+    font-weight: bold;
+}
+.skill-item-des{
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+}
+.skills-abouts{
+    border-radius: 10px;
+    padding: 130px 150px;
+    margin-top: 130px;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.skill-item{
+    box-shadow: 0px 6px 50px 0px #00000060;
+    padding: 30px 33px;
+    
+}
+.resume-colum-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.experience-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-bottom: 30px;
+    padding-right: 47px;
+}
+.resume-columm{
+    display: flex;
+    gap: 24px;
+}
+.education-sec-title{
+    margin-top: 130px;
+    margin-bottom: 93px;
+    text-align: center;
+}
+.btnn-primaryy{
+    text-align: center;
+    margin-top: 50px;
+}
+.education hr{
+    background-color: #f70303;
+}
+.ok{
+    display: flex;
+    background-color: #FFF8F3;
+    gap: 117px;
+    padding: 130px 230px;
+    margin-top: 113px;
+}
+.footer-para{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 20px;
+}
+.footer-column{
+    width: 50%;
+}
+input[type="text"], input[type="email"]{
+    border-radius: 5px;
+   width: 461px;
+   height: 44px;
+   padding: 10px 20px;
+   margin-bottom: 24px;
+   border: none;
+   background-color: white;
+}
+textarea{
+    border-radius: 5px;
+   width: 461px;
+   height: 180px;
+   padding: 18px 0px 0px 30px;
+   margin-bottom: 24px;
+   border: none;
+   background-color: white;
+}
+.foot-div-img{
+    margin-top: 30px;
+}
+.fb{
+    margin-right: 24px;
+}
+.ins{
+    margin-right: 24px;
+}
+.resume-colum{
+    width: 50%;
+}
